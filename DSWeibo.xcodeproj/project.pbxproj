@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		2DD035041D69621800EDECC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035031D69621800EDECC3 /* AppDelegate.swift */; };
 		2DD035061D69621800EDECC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035051D69621800EDECC3 /* ViewController.swift */; };
-		2DD035091D69621800EDECC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD035071D69621800EDECC3 /* Main.storyboard */; };
 		2DD0350B1D69621800EDECC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0350A1D69621800EDECC3 /* Assets.xcassets */; };
-		2DD0350E1D69621800EDECC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0350C1D69621800EDECC3 /* LaunchScreen.storyboard */; };
 		2DD035191D69621800EDECC3 /* DSWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035181D69621800EDECC3 /* DSWeiboTests.swift */; };
 		2DD035241D69621800EDECC3 /* DSWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035231D69621800EDECC3 /* DSWeiboUITests.swift */; };
+		2DD0353A1D69715000EDECC3 /* DSMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035391D69715000EDECC3 /* DSMainTabBarController.swift */; };
+		2DD0353C1D6971C500EDECC3 /* DSMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0353B1D6971C500EDECC3 /* DSMessageTableViewController.swift */; };
+		2DD0353E1D6971E600EDECC3 /* DSHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0353D1D6971E600EDECC3 /* DSHomeTableViewController.swift */; };
+		2DD035401D6971F500EDECC3 /* DSDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0353F1D6971F500EDECC3 /* DSDiscoverTableViewController.swift */; };
+		2DD035421D69720800EDECC3 /* DSProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035411D69720800EDECC3 /* DSProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,7 @@
 		2DD035001D69621700EDECC3 /* DSWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD035031D69621800EDECC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD035051D69621800EDECC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DD035081D69621800EDECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD0350A1D69621800EDECC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DD0350D1D69621800EDECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD0350F1D69621800EDECC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DD035141D69621800EDECC3 /* DSWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD035181D69621800EDECC3 /* DSWeiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSWeiboTests.swift; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		2DD0351F1D69621800EDECC3 /* DSWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD035231D69621800EDECC3 /* DSWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSWeiboUITests.swift; sourceTree = "<group>"; };
 		2DD035251D69621800EDECC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD035391D69715000EDECC3 /* DSMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSMainTabBarController.swift; sourceTree = "<group>"; };
+		2DD0353B1D6971C500EDECC3 /* DSMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSMessageTableViewController.swift; sourceTree = "<group>"; };
+		2DD0353D1D6971E600EDECC3 /* DSHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSHomeTableViewController.swift; sourceTree = "<group>"; };
+		2DD0353F1D6971F500EDECC3 /* DSDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		2DD035411D69720800EDECC3 /* DSProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,10 @@
 		2DD035021D69621800EDECC3 /* DSWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				2DD035311D69702B00EDECC3 /* scripts */,
 				2DD035031D69621800EDECC3 /* AppDelegate.swift */,
 				2DD035051D69621800EDECC3 /* ViewController.swift */,
-				2DD035071D69621800EDECC3 /* Main.storyboard */,
 				2DD0350A1D69621800EDECC3 /* Assets.xcassets */,
-				2DD0350C1D69621800EDECC3 /* LaunchScreen.storyboard */,
 				2DD0350F1D69621800EDECC3 /* Info.plist */,
 			);
 			path = DSWeibo;
@@ -123,6 +128,74 @@
 				2DD035251D69621800EDECC3 /* Info.plist */,
 			);
 			path = DSWeiboUITests;
+			sourceTree = "<group>";
+		};
+		2DD035311D69702B00EDECC3 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2DD035341D69702B00EDECC3 /* Home */,
+				2DD035331D69702B00EDECC3 /* Discover */,
+				2DD035361D69702B00EDECC3 /* Message */,
+				2DD035371D69702B00EDECC3 /* Profile */,
+				2DD035351D69702B00EDECC3 /* Main */,
+				2DD035321D69702B00EDECC3 /* Common */,
+				2DD035381D69702B00EDECC3 /* Tools */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		2DD035321D69702B00EDECC3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2DD035331D69702B00EDECC3 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0353F1D6971F500EDECC3 /* DSDiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		2DD035341D69702B00EDECC3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0353D1D6971E600EDECC3 /* DSHomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2DD035351D69702B00EDECC3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2DD035391D69715000EDECC3 /* DSMainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2DD035361D69702B00EDECC3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0353B1D6971C500EDECC3 /* DSMessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2DD035371D69702B00EDECC3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2DD035411D69720800EDECC3 /* DSProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2DD035381D69702B00EDECC3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +260,7 @@
 		2DD034F81D69621700EDECC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DS;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = SunSi;
@@ -229,9 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD0350E1D69621800EDECC3 /* LaunchScreen.storyboard in Resources */,
 				2DD0350B1D69621800EDECC3 /* Assets.xcassets in Resources */,
-				2DD035091D69621800EDECC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD0353E1D6971E600EDECC3 /* DSHomeTableViewController.swift in Sources */,
+				2DD0353C1D6971C500EDECC3 /* DSMessageTableViewController.swift in Sources */,
 				2DD035061D69621800EDECC3 /* ViewController.swift in Sources */,
+				2DD035401D6971F500EDECC3 /* DSDiscoverTableViewController.swift in Sources */,
+				2DD035421D69720800EDECC3 /* DSProfileTableViewController.swift in Sources */,
+				2DD0353A1D69715000EDECC3 /* DSMainTabBarController.swift in Sources */,
 				2DD035041D69621800EDECC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +368,6 @@
 			targetProxy = 2DD035201D69621800EDECC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2DD035071D69621800EDECC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DD035081D69621800EDECC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2DD0350C1D69621800EDECC3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DD0350D1D69621800EDECC3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2DD035261D69621800EDECC3 /* Debug */ = {
@@ -399,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DSWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunsi.DSWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DSWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunsi.DSWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
