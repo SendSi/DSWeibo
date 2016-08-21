@@ -17,6 +17,8 @@
 		2DD0353E1D6971E600EDECC3 /* DSHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0353D1D6971E600EDECC3 /* DSHomeTableViewController.swift */; };
 		2DD035401D6971F500EDECC3 /* DSDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0353F1D6971F500EDECC3 /* DSDiscoverTableViewController.swift */; };
 		2DD035421D69720800EDECC3 /* DSProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD035411D69720800EDECC3 /* DSProfileTableViewController.swift */; };
+		2DD17EB91D69D0C700FE83EC /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DD17EB71D69D0C700FE83EC /* MainVCSettings.json */; };
+		2DD17EBA1D69D0C700FE83EC /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD17EB81D69D0C700FE83EC /* NullViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2DD0353D1D6971E600EDECC3 /* DSHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSHomeTableViewController.swift; sourceTree = "<group>"; };
 		2DD0353F1D6971F500EDECC3 /* DSDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSDiscoverTableViewController.swift; sourceTree = "<group>"; };
 		2DD035411D69720800EDECC3 /* DSProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSProfileTableViewController.swift; sourceTree = "<group>"; };
+		2DD17EB71D69D0C700FE83EC /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		2DD17EB81D69D0C700FE83EC /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 		2DD035351D69702B00EDECC3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2DD17EB61D69D0C700FE83EC /* Resource */,
 				2DD035391D69715000EDECC3 /* DSMainTabBarController.swift */,
 			);
 			path = Main;
@@ -196,6 +201,15 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		2DD17EB61D69D0C700FE83EC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2DD17EB71D69D0C700FE83EC /* MainVCSettings.json */,
+				2DD17EB81D69D0C700FE83EC /* NullViewController.swift */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD17EB91D69D0C700FE83EC /* MainVCSettings.json in Resources */,
 				2DD0350B1D69621800EDECC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +348,7 @@
 				2DD035061D69621800EDECC3 /* ViewController.swift in Sources */,
 				2DD035401D6971F500EDECC3 /* DSDiscoverTableViewController.swift in Sources */,
 				2DD035421D69720800EDECC3 /* DSProfileTableViewController.swift in Sources */,
+				2DD17EBA1D69D0C700FE83EC /* NullViewController.swift in Sources */,
 				2DD0353A1D69715000EDECC3 /* DSMainTabBarController.swift in Sources */,
 				2DD035041D69621800EDECC3 /* AppDelegate.swift in Sources */,
 			);
@@ -544,6 +560,7 @@
 				2DD0352A1D69621800EDECC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DD0352B1D69621800EDECC3 /* Build configuration list for PBXNativeTarget "DSWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +569,7 @@
 				2DD0352D1D69621800EDECC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DD0352E1D69621800EDECC3 /* Build configuration list for PBXNativeTarget "DSWeiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +578,7 @@
 				2DD035301D69621800EDECC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
