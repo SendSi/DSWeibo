@@ -9,7 +9,11 @@
      "title": "消息",
      "imageName": "tabbar_message_center"
  },
-
+ {
+ "vcName": "NullViewController",
+ "title": "",
+ "imageName": ""
+ },
  {
      "vcName": "DSDiscoverTableViewController",
      "title": "广场",
